@@ -1,0 +1,14 @@
+name: "my-website"
+output_dir: "docs"
+navbar:
+  title: "My Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Lab 13"
+      href: Lab13.html
+output:
+  html_document:
+    theme: flatly
+    include:
+      after_body: my_footer.html
